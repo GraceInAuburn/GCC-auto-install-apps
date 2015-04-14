@@ -1,4 +1,4 @@
-$source = "https://github.com/GraceInAuburn/GCC-auto-install-apps/blob/master/packages.config"
+$source = "https://raw.githubusercontent.com/GraceInAuburn/GCC-auto-install-apps/master/packages.config"
 $Filename = [System.IO.Path]::GetFileName($source)
 $dest = "$env:TEMP\$Filename"
 
