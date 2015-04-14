@@ -5,4 +5,5 @@ $dest = "$env:TEMP\$Filename"
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($source, $dest)
 
-choco install $dest -y
+$cinstlocation "$env:ProgramData\chocolatey\bin\cinst.exe"
+Start-Process $cinstlocation -FilePath $dest -ArgumentList -y
