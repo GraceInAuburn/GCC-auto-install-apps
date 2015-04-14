@@ -6,5 +6,5 @@ $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($source, $dest)
 
 $cinstlocation = "$env:ProgramData\chocolatey\bin\cinst.exe"
-#$cinstarg = "-y"
-Start-Process $cinstlocation -FilePath $dest #$cinstarg
+$cinstarg = "-y"
+Start-Process $cinstlocation $dest $cinstarg
