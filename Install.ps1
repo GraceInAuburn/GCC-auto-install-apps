@@ -7,4 +7,4 @@ $wc.DownloadFile($source, $dest)
 
 $cinstlocation = "$env:ProgramData\chocolatey\bin\cinst.exe"
 $cinstarg = "-y"
-Start-Process $cinstlocation $dest $cinstarg
+Start-Process $cinstlocation /y` $dest
