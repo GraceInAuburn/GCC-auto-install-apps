@@ -1,5 +1,3 @@
->#:heavy_exclamation_mark:This is a work in progress:heavy_exclamation_mark:
-
 # GCC-auto-install-apps
 
 ####Install https://chocolatey.org/ first then you can install the GCC Chocolatey packages
